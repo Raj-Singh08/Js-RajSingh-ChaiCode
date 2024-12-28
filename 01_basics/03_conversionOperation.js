@@ -22,5 +22,28 @@ let booleanIsLoggedIn=Boolean(isLoggedIn);
 let someNumber=undefined
 
 let StringNumber=String(someNumber)
-console.log(typeof StringNumber)
-console.log(StringNumber)
+// console.log(typeof StringNumber)
+// console.log(StringNumber)
+
+
+
+//****************************Operations **********************************
+
+let value=3
+let negValue=-value
+//console.log(negValue)
+
+
+// console.log("1"+2)  //12
+// console.log(1+2+"3")    //33
+// console.log(+true); //1 instead of true
+
+let val1=3
+let newValPre=++val1
+console.log(newValPre) //4
+let val2=3
+let newValPost=val2++    
+console.log(newValPost)    //3
+
+
+
