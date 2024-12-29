@@ -13,7 +13,7 @@ console.log(id===anotherId)     //false     Symbol used to create unique value(l
 //Array, Objects, functions
 
 const heros=["shaktiman","naagraj","doga"];
-console.log(typeof heros)   //object
+//console.log(typeof heros)   //object
 let myobj={
     name:"Raj",
     age :22
@@ -22,5 +22,30 @@ let myobj={
 let myFunction=function() {
     console.log("Hello World")
 }
+
+
+//--------------------------------Memory----------------------
+
+//Stack Memory is used in (Primitive)type dataTypr, Heap Memory is used for(Non-Premitive)
+
+let myYoutubeName="Raj Singh"
+let anothername=myYoutubeName
+anothername="Youtube"
+
+console.log(anothername)
+console.log(myYoutubeName);
+
+let userOne={
+    email:"Raj@gmail.com"
+}
+let UserTwo=userOne
+UserTwo.email="Hello@gmail.com"
+
+console.log(userOne);
+console.log(UserTwo);
+
+
+
+
 
 
